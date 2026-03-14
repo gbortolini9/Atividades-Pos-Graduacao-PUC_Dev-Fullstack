@@ -26,7 +26,7 @@ jobs:
           node-version: 20
 
       - name: Instalar dependências
-        run: npm ci
+        run: npm install
 
       - name: Executar testes com Mocha
         run: npm test
