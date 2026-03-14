@@ -1,0 +1,29 @@
+import Layout from "../components/Layout";
+import Card from "../components/Card";
+
+export default function Home() {
+  return (
+    <Layout titulo="Página Inicial">
+      <h2>Frameworks para aplicações React</h2>
+      <p>
+        Esta página demonstra como um framework como o Next.js ajuda a
+        organizar aplicações React de forma mais escalável.
+      </p>
+
+      <div className="grid">
+        <Card
+          titulo="Roteamento"
+          descricao="Cada página da aplicação possui sua própria rota de forma organizada."
+        />
+        <Card
+          titulo="Componentização"
+          descricao="Os componentes podem ser reutilizados em diferentes páginas."
+        />
+        <Card
+          titulo="Escalabilidade"
+          descricao="A estrutura facilita o crescimento da aplicação."
+        />
+      </div>
+    </Layout>
+  );
+}

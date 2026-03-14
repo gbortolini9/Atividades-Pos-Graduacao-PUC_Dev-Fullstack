@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.topo {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.topo h1 {
+  color: #1f3c88;
+  margin-bottom: 10px;
+}
+
+.topo p {
+  color: #666;
+}
+
+.menu {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.menu a {
+  text-decoration: none;
+  background: #1f3c88;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.conteudo {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #f8f9fb;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #1f3c88;
+}
