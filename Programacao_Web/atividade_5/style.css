@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #1f3c88;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #666;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1f3c88;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #162d66;
+}
+
+.mensagem {
+  margin-top: 15px;
+  min-height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sucesso {
+  color: green;
+}
+
+.erro {
+  color: red;
+}
+
+.resultado {
+  margin-top: 20px;
+  padding: 16px;
+  background-color: #f8f9fb;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.resultado h2 {
+  margin-bottom: 12px;
+  color: #1f3c88;
+}
+
+.resultado p {
+  margin-bottom: 8px;
+}
+
+.oculto {
+  display: none;
+}
