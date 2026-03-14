@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App Shell com Micro Frontends</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="topo">
+      <h1>Arquitetura Client-Side</h1>
+      <p>Exemplo de App Shell com Micro Frontends e SPA</p>
+    </header>
+
+    <nav class="menu">
+      <button data-page="dashboard">Dashboard</button>
+      <button data-page="usuarios">Usuários</button>
+      <button data-page="produtos">Produtos</button>
+    </nav>
+
+    <main id="app" class="conteudo"></main>
+  </div>
+
+  <script src="microfrontends/dashboard.js"></script>
+  <script src="microfrontends/usuarios.js"></script>
+  <script src="microfrontends/produtos.js"></script>
+  <script src="router.js"></script>
+</body>
+</html>
