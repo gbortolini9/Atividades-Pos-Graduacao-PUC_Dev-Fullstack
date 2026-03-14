@@ -17,3 +17,6 @@ JOIN livro l ON e.id_livro = l.id_livro;
 
 SELECT * FROM livro
 WHERE disponivel = 1;
+
+SELECT * FROM emprestimo
+WHERE status = 'Ativo';

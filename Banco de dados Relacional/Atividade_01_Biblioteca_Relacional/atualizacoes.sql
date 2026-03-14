@@ -1,5 +1,5 @@
 UPDATE usuario
-SET telefone = '51977777777'
+SET telefone = '51966666666'
 WHERE id_usuario = 1;
 
 UPDATE livro

@@ -4,27 +4,22 @@
 Sistema de Biblioteca
 
 ## Objetivo
-Desenvolver um banco de dados relacional simples que permita:
+Desenvolver um banco de dados relacional simples para gerenciar usuários, livros e empréstimos.
 
-- cadastrar usuários
-- cadastrar livros
-- registrar empréstimos
-- consultar dados
-- atualizar informações
-- excluir registros
+## Funcionalidades demonstradas
+- criação de tabelas
+- inserção de dados
+- consulta de informações
+- atualização de registros
+- exclusão de dados
 
-## Estrutura da atividade
-
-- `modelo_conceitual.md` → descrição do modelo conceitual
-- `modelo_logico.md` → descrição do modelo lógico
-- `banco_biblioteca.sql` → criação das tabelas
-- `inserts.sql` → inserção de dados
-- `consultas.sql` → consultas SQL
-- `atualizacoes.sql` → atualizações de dados
-- `exclusoes.sql` → exclusão de dados
-
-## Entidades principais
-
-- Usuário
-- Livro
-- Empréstimo
+## Arquivos
+- `modelo_conceitual.md`
+- `modelo_logico.md`
+- `diagrama_conceitual.png`
+- `diagrama_logico.png`
+- `banco_biblioteca.sql`
+- `inserts.sql`
+- `consultas.sql`
+- `atualizacoes.sql`
+- `exclusoes.sql`
