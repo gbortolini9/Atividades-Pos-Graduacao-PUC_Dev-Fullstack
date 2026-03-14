@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Lista de Tarefas</h1>
+      <p>Atividade de Programação Web com persistência em localStorage</p>
+    </header>
+
+    <section class="todo-box">
+      <form id="formTarefa">
+        <input
+          type="text"
+          id="inputTarefa"
+          placeholder="Digite uma nova tarefa"
+        />
+        <button type="submit">Adicionar</button>
+      </form>
+
+      <p id="mensagem" class="mensagem"></p>
+
+      <ul id="listaTarefas"></ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
