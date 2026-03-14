@@ -1,0 +1,13 @@
+{
+  "name": "atividade-01-pipeline-node-docker",
+  "version": "1.0.0",
+  "description": "Projeto da atividade de DevOps com Node, Docker e GitHub Actions",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}

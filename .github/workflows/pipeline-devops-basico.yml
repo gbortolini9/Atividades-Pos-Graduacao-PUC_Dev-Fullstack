@@ -1,0 +1,35 @@
+name: Pipeline DevOps Basico
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: DevOps_Basico/Atividade_01_Pipeline_Node_Docker
+
+    steps:
+      - name: Clonar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Executar testes com Mocha
+        run: npm test
+
+      - name: Construir imagem Docker
+        run: docker build -t atividade-devops .
