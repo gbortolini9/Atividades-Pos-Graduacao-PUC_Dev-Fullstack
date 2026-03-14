@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Componentes React</title>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    function Saudacao(props) {
+      return (
+        <div className="card">
+          <h2>Olá {props.nome}</h2>
+          <p>
+            Este é um componente React que recebe dados externos
+            utilizando props.
+          </p>
+        </div>
+      );
+    }
+
+    function App() {
+      return (
+        <div className="container">
+          <h1>Componentes Visuais com React</h1>
+
+          <Saudacao nome="Guilherme" />
+          <Saudacao nome="Maria" />
+          <Saudacao nome="Carlos" />
+        </div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(<App />);
+  </script>
+</body>
+</html>
