@@ -1,20 +1,22 @@
 # Modelo Conceitual
 
-O sistema de biblioteca é composto por três entidades principais:
+O sistema proposto é um banco de dados relacional para controle de biblioteca.
 
-## 1. Usuário
-Representa a pessoa que pode realizar empréstimos de livros.
+## Entidades
 
-### Atributos:
+### Usuário
+A entidade Usuário representa as pessoas cadastradas no sistema que podem realizar empréstimos de livros.
+
+**Atributos:**
 - id_usuario
 - nome
 - email
 - telefone
 
-## 2. Livro
-Representa os livros disponíveis na biblioteca.
+### Livro
+A entidade Livro representa os livros disponíveis para empréstimo na biblioteca.
 
-### Atributos:
+**Atributos:**
 - id_livro
 - titulo
 - autor
@@ -22,10 +24,10 @@ Representa os livros disponíveis na biblioteca.
 - ano_publicacao
 - disponivel
 
-## 3. Empréstimo
-Representa a relação entre usuário e livro no momento em que um livro é emprestado.
+### Empréstimo
+A entidade Empréstimo representa o registro de retirada de um livro por um usuário.
 
-### Atributos:
+**Atributos:**
 - id_emprestimo
 - data_emprestimo
 - data_devolucao

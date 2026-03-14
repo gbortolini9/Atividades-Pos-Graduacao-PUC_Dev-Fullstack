@@ -1,5 +1,7 @@
 # Modelo Lógico
 
+O modelo lógico do banco de dados é composto por três tabelas principais:
+
 ## Tabela: usuario
 - id_usuario (PK)
 - nome
@@ -10,7 +12,7 @@
 - id_livro (PK)
 - titulo
 - autor
-- categoria
+- categoria     
 - ano_publicacao
 - disponivel
 
@@ -24,5 +26,5 @@
 
 ## Relacionamentos
 
-- `emprestimo.id_usuario` referencia `usuario.id_usuario`
-- `emprestimo.id_livro` referencia `livro.id_livro`
+- A chave estrangeira `id_usuario` na tabela `emprestimo` referencia a chave primária `id_usuario` da tabela `usuario`.
+- A chave estrangeira `id_livro` na tabela `emprestimo` referencia a chave primária `id_livro` da tabela `livro`.
