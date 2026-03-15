@@ -1,0 +1,21 @@
+{
+  "name": "exercicio-api-nest",
+  "version": "1.0.0",
+  "description": "Exercicio de Arquitetura Server Side com NestJS",
+  "main": "main.js",
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "@nestjs/platform-express": "^10.4.22",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}

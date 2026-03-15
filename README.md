@@ -67,6 +67,27 @@ Conceitos abordados:
 
 ---
 
+## Arquitetura_Server_Side
+
+Atividades voltadas à arquitetura de aplicações no lado do servidor, com foco na organização de APIs, separação de responsabilidades e estruturação de aplicações backend escaláveis.
+
+Exemplos desenvolvidos:
+
+- Implementação de API REST utilizando NestJS
+- Estruturação de controllers, services e modules
+- Organização modular de aplicações Node.js
+- Criação de endpoints para manipulação de dados
+
+Conceitos abordados:
+
+- Arquitetura em camadas
+- Separação de responsabilidades
+- Estrutura modular de aplicações backend
+- Desenvolvimento de APIs REST
+- Estrutura de aplicações server-side com Node.js
+
+---
+
 ## DevOps_Basico
 
 Atividades introdutórias relacionadas a práticas de DevOps, automação e conteinerização.
@@ -95,6 +116,7 @@ Até o momento, as atividades do repositório utilizam as seguintes tecnologias:
 ### Linguagens
 
 - JavaScript
+- TypeScript
 - SQL
 - HTML5
 - CSS3
@@ -110,6 +132,7 @@ Até o momento, as atividades do repositório utilizam as seguintes tecnologias:
 ### Frameworks
 
 - Next.js
+- NestJS
 
 ### Banco de dados
 
