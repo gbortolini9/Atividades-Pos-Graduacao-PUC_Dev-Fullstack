@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:cal="http://exemplo.com/calculadora">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cal:SomarResponse>
+         <cal:resultado>15</cal:resultado>
+      </cal:SomarResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

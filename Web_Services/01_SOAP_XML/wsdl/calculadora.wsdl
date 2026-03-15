@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="CalculadoraService"
+             targetNamespace="http://exemplo.com/calculadora"
+             xmlns:tns="http://exemplo.com/calculadora"
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+             xmlns="http://schemas.xmlsoap.org/wsdl/">
+
+  <types>
+    <xsd:schema targetNamespace="http://exemplo.com/calculadora">
+      <xsd:element name="SomarRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="numero1" type="xsd:int"/>
+            <xsd:element name="numero2" type="xsd:int"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="SomarResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="resultado" type="xsd:int"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </types>
+
+  <message name="SomarInput">
+    <part name="parameters" element="tns:SomarRequest"/>
+  </message>
+
+  <message name="SomarOutput">
+    <part name="parameters" element="tns:SomarResponse"/>
+  </message>
+
+  <portType name="CalculadoraPortType">
+    <operation name="Somar">
+      <input message="tns:SomarInput"/>
+      <output message="tns:SomarOutput"/>
+    </operation>
+  </portType>
+
+  <binding name="CalculadoraBinding" type="tns:CalculadoraPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="Somar">
+      <soap:operation soapAction="somar"/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+
+  <service name="CalculadoraService">
+    <port name="CalculadoraPort" binding="tns:CalculadoraBinding">
+      <soap:address location="http://localhost:8080/calculadora"/>
+    </port>
+  </service>
+</definitions>

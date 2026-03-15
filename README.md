@@ -109,19 +109,33 @@ Conceitos abordados:
 
 ---
 
+## Web_Services
+
+Atividades relacionadas aos principais conceitos de integração entre sistemas e comunicação por serviços.
+
+Exercícios desenvolvidos:
+
+- Estrutura e funcionamento de mensagens SOAP com XML;
+- Exemplos de requisição e resposta em Web Services;
+- Modelagem básica de serviços com WSDL;
+- Introdução à comunicação cliente-servidor via HTTP em serviços web.
+
+---
+
 # Tecnologias utilizadas
 
 Até o momento, as atividades do repositório utilizam as seguintes tecnologias:
 
-### Linguagens
+## Linguagens
 
 - JavaScript
 - TypeScript
 - SQL
 - HTML5
 - CSS3
+- XML
 
-### Front-end
+## Front-end
 
 - DOM API
 - LocalStorage
@@ -129,22 +143,29 @@ Até o momento, as atividades do repositório utilizam as seguintes tecnologias:
 - React
 - JSX
 
-### Frameworks
+## Frameworks
 
 - Next.js
 - NestJS
 
-### Banco de dados
+## Banco de dados
 
 - SQLite
 - SQL
 
-### DevOps e automação
+## Web Services e Integração
+
+- SOAP
+- XML
+- WSDL
+- HTTP
+
+## DevOps e automação
 
 - Docker
 - GitHub Actions
 
-### Ferramentas
+## Ferramentas
 
 - Node.js
 - npm
