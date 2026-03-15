@@ -2,7 +2,7 @@
 
 Este repositório reúne as atividades desenvolvidas ao longo da Pós-Graduação em **Desenvolvimento Full Stack** da **PUC**.
 
-O objetivo é documentar exercícios práticos relacionados a diferentes disciplinas do curso, explorando conceitos de desenvolvimento web moderno, arquitetura de aplicações, banco de dados e tecnologias utilizadas no ecossistema JavaScript.
+O objetivo é documentar exercícios práticos relacionados a diferentes disciplinas do curso, explorando conceitos de desenvolvimento web moderno, arquitetura de aplicações, banco de dados e práticas introdutórias de DevOps.
 
 Cada diretório do repositório corresponde a uma disciplina e contém atividades práticas, exemplos de código e pequenas aplicações desenvolvidas durante o curso.
 
@@ -67,6 +67,27 @@ Conceitos abordados:
 
 ---
 
+## DevOps_Basico
+
+Atividades introdutórias relacionadas a práticas de DevOps, automação e conteinerização.
+
+Exercícios desenvolvidos:
+
+- Criação de Dockerfile para aplicação
+- Estruturação de pipeline de integração contínua
+- Configuração de GitHub Actions
+- Execução automatizada de etapas de build
+
+Conceitos abordados:
+
+- Conteinerização com Docker
+- Automação de processos
+- Pipeline CI
+- Integração contínua
+- Versionamento e execução de fluxos automatizados no GitHub
+
+---
+
 # Tecnologias utilizadas
 
 Até o momento, as atividades do repositório utilizam as seguintes tecnologias:
@@ -89,6 +110,16 @@ Até o momento, as atividades do repositório utilizam as seguintes tecnologias:
 ### Frameworks
 
 - Next.js
+
+### Banco de dados
+
+- SQLite
+- SQL
+
+### DevOps e automação
+
+- Docker
+- GitHub Actions
 
 ### Ferramentas
 
